@@ -1,0 +1,105 @@
+# Python dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Eğitim sonuçları ve modeller
+*.pt
+*.pth
+*.onnx
+*.tflite
+runs/
+*.weights
+
+# Veri setleri (büyük dosya olduğu için)
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.JPG
+*.JPEG
+*.PNG
+*.BMP
+
+# IDE ve editör dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints
+.jupyter
+
+# Sanal Ortam Dizinleri - Geliştirilmiş
+# Tüm yaygın sanal ortam klasör isimleri
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+virtual_environment/
+python_env/
+py_env/
+pythonenv/
+pyenv/
+.Python/
+pythonvirtualenv/
+Python-venv/
+.pyenv/
+pyvenv/
+python-virtualenv/
+python_virtualenv/
+python3-venv/
+python3-virtualenv/
+py3env/
+py3venv/
+
+# Bin klasörleri
+*/venv/bin/*
+*/env/bin/*
+*/ENV/bin/*
+*/virtualenv/bin/*
+*/bin/*
+
+# Include klasörleri
+*/venv/include/*
+*/env/include/*
+*/ENV/include/*
+*/virtualenv/include/*
+*/include/*
+
+# Lib klasörleri  
+*/venv/lib/*
+*/env/lib/*
+*/ENV/lib/*
+*/virtualenv/lib/*
+
+# Pip kayıt dosyaları
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Yerel ayar dosyaları
+.python-version
+.env
